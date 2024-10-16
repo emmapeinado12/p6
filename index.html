@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p6</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        #rectangulo-azul{
+            z-index: 3;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 256px;
+            height: 384px;
+            background-color: #479AC6;
+          
+        }
+       #elipse-1{
+            z-index: 5;
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            width: 320px ;
+            height: 226px;
+            background-color: #479AC6;
+            border: 4px solid #E188D9;
+            border-radius: 50%;
+            transform:rotate(120deg);
+            
+            
+        }
+        #elipse-2{
+            z-index: 50;
+            position: absolute;
+            background-color: solid transparent;
+            width: 246px ;
+            left: 400px;
+            border: 4px solid #E188D9;
+            border-radius: 50%;
+            margin-right: auto;
+            padding-right: auto;
+            height:176px;
+            margin-top:30vh;
+            padding-top: 30vh;
+            transform:rotate(-60deg);
+        }
+        #rectangulo-rojo{
+            position:absolute;
+            z-index: 4;
+            right: 0;
+            bottom: 0;
+            width: 50vw ;
+            height: 33vh;
+            background-color: #BD2729;
+            
+        }
+        #elipse-3{
+            z-index: 5;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 320px ;
+            height: 226px;
+            background-color: #479AC6;
+            border: 4px solid #E188D9;
+            border-radius: 50%
+        }
+    </style>
+</head>
+<body>
+    <div id="rectangulo-azul"></div>
+    <div id="elipse-1"></div>
+    <div id="elipse-2"></div>
+    <div id="rectangulo-rojo"></div>
+    <div id="elipse-3"></div>
+    
+</body>
+</html>
